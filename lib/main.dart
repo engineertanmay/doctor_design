@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "flutter application",
       theme: ThemeData(
-        primarySwatch: Colors.deepOrange,
+        primaryColor: Colors.white,
       ),
       home: HomePage(),
     );
