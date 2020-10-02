@@ -179,9 +179,6 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
       );
-    Container(
-      child: RaisedButton(onPressed: null),
-    );
   }
 
 }
