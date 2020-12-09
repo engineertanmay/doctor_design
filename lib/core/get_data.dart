@@ -1,4 +1,5 @@
 import 'package:doctor_design/core/constractor.dart';
+import 'package:doctor_design/core/share/share_widgets.dart';
 
 class getDataClass {
   static ConstractorClass constractorClass1 = ConstractorClass(
@@ -20,10 +21,7 @@ class getDataClass {
     constractorClass3
   ];
 
-
-
- //============================third page==================================
-
+  //============================third page==================================
 
   //page no three top selling item lists
   static TopSellProductClass topSellProductClass1 = TopSellProductClass(
@@ -62,5 +60,27 @@ class getDataClass {
     topSellProductClass5,
     topSellProductClass6,
     topSellProductClass7
+  ];
+
+  //page number six country list
+  static CountrylistTile countrylistTile1 = CountrylistTile(
+    assetImgPath: "assets/images/tours/travel1.jpg",
+      lavel: "New", countryName: "Thailand", noOfTours: 10, rating: 4.5);
+
+  static CountrylistTile countrylistTile2 = CountrylistTile(
+    assetImgPath: "assets/images/tours/travel2.jpg",
+      lavel: "New", countryName: "Thailand", noOfTours: 10, rating: 4.5);
+  static CountrylistTile countrylistTile3 = CountrylistTile(
+    assetImgPath: "assets/images/tours/travel3.jpg",
+      lavel: "New", countryName: "Thailand", noOfTours: 10, rating: 4.5);
+  static CountrylistTile countrylistTile4 = CountrylistTile(
+    assetImgPath: "assets/images/tours/travel4.jpg",
+      lavel: "New", countryName: "Thailand", noOfTours: 10, rating: 4.5);
+
+  static List<CountrylistTile> countryList = [
+    countrylistTile1,
+    countrylistTile2,
+    countrylistTile3,
+    countrylistTile4
   ];
 }

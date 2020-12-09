@@ -16,7 +16,3 @@ class TopSellProductClass{
   TopSellProductClass({@required this.assetImgPath,
     @required this.productName});
 }
-// class CountrylistTileClass{
-//
-//
-// }

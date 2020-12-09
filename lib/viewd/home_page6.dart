@@ -1,3 +1,4 @@
+import 'package:doctor_design/core/share/share_widgets.dart';
 import 'package:flutter/material.dart';
 
 class HomePageSixClass extends StatefulWidget {
@@ -17,7 +18,7 @@ class _HomePageSixClassState extends State<HomePageSixClass> {
         title: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Image.asset("assets/images/menu.png",height: 26,),
+            Image.asset("assets/menu.png",height: 26,),
             Text("DiscountTour",
               style: TextStyle(
                   color: Colors.black54,fontWeight: FontWeight.w600),),
@@ -38,6 +39,13 @@ class _HomePageSixClassState extends State<HomePageSixClass> {
                 fontSize: 20,fontWeight: FontWeight.w600,color: Colors.black54
             ),),
             SizedBox(height: 16,),
+            CountrylistTile.CountryList(),
+            SizedBox(height: 10,),
+            Container(
+              child: Text("Popular Tours",style: TextStyle(
+                  fontSize: 28,fontWeight: FontWeight.w600,color: Colors.black54
+              ),),
+            )
 
           ],
         ),
